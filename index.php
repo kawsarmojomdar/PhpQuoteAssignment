@@ -30,10 +30,13 @@
     $book = $hadithCollection[$randNum][1];
     ?>
 
-    <div style="width: 30%; height: 40%; background: #f0f0f0; text-align:center; padding:3% 5%;   margin:auto; border-radius: 15px;">
+    <div style="width: 50%; height: 40%; background: #f0f0f0; text-align:center; padding:3% 5%;   margin:auto; border-radius: 15px;">
     <p ><?php echo $hadith .'<br><br>' ; ?></p>
 
     <h3 style="text-align: right;"><?php echo '~ '. $book; ?></h3>
+    <form action="#" method="post">
+        <button style="background-color: green; color:#f0f0f0" type="submit">Refresh</button>
+    </form>
 
 
     </div>
